@@ -1,0 +1,119 @@
+@media(min-width: 270px) {
+    .score-result {
+        font-size: .85rem;
+    }
+    .name {
+        margin-right: 4rem;
+    }
+
+    .name-1 {
+        margin-right: 4rem;
+    }
+
+    .name-2 {
+        margin-right: 4.5rem;
+    }
+
+    .name-3 {
+        margin-right: 4.5rem;
+    }
+    
+.continue-button:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    border: none;
+   background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+};
+}
+
+@media(min-width: 768px) {
+    article {
+        display: flex;
+        background-color: hsl(0, 0%, 100%);
+                position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+          width: 60%;  
+          margin: 0 auto;
+          max-width: 600px;
+    }
+
+    .heading {
+        flex: 1;
+        /* border-radius: 25px 0 0 25px; */
+        padding: 2.5rem;
+        max-width: 200px;
+    };
+
+    .summary {
+        flex: 1;
+        border-radius: 0 0 20px 20px;
+        padding: 2.5rem;
+    }
+
+    .summary {
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .score-number {
+        font-size: 3rem;
+    }
+
+    .last-head {
+        margin-top: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .score-result {
+        font-size: .85rem;
+        margin-top: 10px;
+    }
+
+     .reaction,  .memory, .verbal, .visual {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    };
+
+    .reaction .mark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 55px;
+}
+
+.reaction .hundred {
+  white-space: nowrap;
+}
+
+     .name {
+        margin-right: 2rem;
+    }
+
+    .name-1 {
+        margin-right: 3.5rem;
+    }
+
+    .name-2 {
+        margin-right: 4.5rem;
+    }
+
+    .name-3 {
+        margin-right: 4.5rem;
+    }
+
+    .continue-button {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    
+.continue-button:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    border: none;
+   background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+};
+};
