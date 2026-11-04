@@ -97,7 +97,7 @@ article {
     border-radius: 5px;
     margin-bottom: 15px;
     margin-left: 10px;
-    width: 230px;
+    width: 90%;
 }
 
 .reaction {
@@ -151,11 +151,11 @@ article {
 
 .continue-button {
     background-color:   hsl(224, 30%, 27%);
-    width: 70%;
+    width: 90%;
     border-radius: 15px;
     padding: 10px;
     border: none;
-    margin-left: 15%;
+    margin-left: 5%;
 };
   
 .continue-button:hover {

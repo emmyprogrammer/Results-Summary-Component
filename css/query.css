@@ -2,6 +2,7 @@
     .score-result {
         font-size: .85rem;
     }
+
     .name {
         margin-right: 5rem;
     }
@@ -62,18 +63,41 @@
 
     .last-head {
         margin-top: 2rem;
-        font-size: 1.25rem;
+        font-size: 1.3rem;
+        font-weight: 700;
     }
 
-    .score-result {
-        font-size: .85rem;
+    .score {
+    background-color: hsl(241, 81%, 54%); /* for browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, hsl(241, 81%, 54%, 0.5) 90%, hsl(252, 100%, 67%) );
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+    .score-number {
+        font-size: 3.7rem;
         margin-top: 10px;
     }
+
+    .reaction, .memory, .verbal, .visual {
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    width: 230px;
+}
 
      .reaction,  .memory, .verbal, .visual {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin: 20px;
+        padding: 10px;
     };
 
     .reaction .mark {
