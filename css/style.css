@@ -96,7 +96,8 @@ article {
     display: flex;
     border-radius: 5px;
     margin-bottom: 15px;
-    margin: 20px;
+    margin-left: 10px;
+    width: 230px;
 }
 
 .reaction {
