@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.w3schools.com/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://results-summary-component-one-iota.vercel.app/)
 
 ## My process
 
@@ -97,7 +97,7 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Emmanuel Lawal](https://results-summary-component-one-iota.vercel.app/)
 - Frontend Mentor - [@emmyprogrammer](https://www.frontendmentor.io/profile/emmyprogrammer)
 
 ## Acknowledgments
